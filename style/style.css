@@ -8,36 +8,71 @@ body {
 	margin: 0 auto;
     width: 512px;
     height: 0;
+    
 }
 
 .wrapper{
     
     height: 100vh;
-    height:calc(100vh - 100px);
+    height:calc(100vh - 80px);
+    background: #141318;
+    
 }
 
 .sidebar{
     flex-direction: column;
     max-width: 100px;
-    width: 100px;
+    width: 90px;
     background: #141318;
-    gap: 5px;
+    gap: 10px;
     align-items: center;
     top: 10px;
     
 }
 
 .fut-bar{
-    height: 100px;
+    height: 80px;
     background-color: #2D2D35;
+    display: flex;
     
+    left: 0;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0;
+}    
+
+.img-foot{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.al-center{
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.font-foot{
+    font-weight: 300;
+    font-size: 0.75rem;
+}
+
+.pos-abs{
+    position: absolute;
 }
 
 .main{
-
+    margin-top: 10px;
     background: #1C1D22;
     flex-direction: column;
     flex-grow: 1;
+    border-top-left-radius: 25px;
 }
 
 .d-flex{
@@ -48,7 +83,24 @@ body {
     color: white;
 }
 
-.dim-img-ser{
-    width: 50px;
-    height: 50px;
+.mar-top{
+    margin-top:25px ;
 }
+
+.pos-rel{
+    position: relative;
+}
+
+.dim-img-ser{
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+
+}
+
+.dim-logo-ser{
+    width: 57px;
+    height: 57px;
+    border-radius: 15px;
+}
+
