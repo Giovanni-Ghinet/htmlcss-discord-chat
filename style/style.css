@@ -13,6 +13,7 @@ body {
 .wrapper{
     
     height: 100vh;
+    height:calc(100vh - 100px);
 }
 
 .sidebar{
@@ -23,6 +24,7 @@ body {
     gap: 5px;
     align-items: center;
     top: 10px;
+    
 }
 
 .fut-bar{
