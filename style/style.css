@@ -6,13 +6,47 @@
 
 body {
 	margin: 0 auto;
-	font-family: 'TikTok Sans', sans-serif;
+    width: 512px;
+    height: 0;
 }
 
 .wrapper{
-    display: flex;
+    
+    height: 100vh;
+}
+
+.sidebar{
     flex-direction: column;
-    justify-content: end;
-    height: 50px;
+    max-width: 100px;
+    width: 100px;
+    background: #141318;
+    gap: 5px;
+    align-items: center;
+    top: 10px;
+}
+
+.fut-bar{
+    height: 100px;
     background-color: #2D2D35;
+    
+}
+
+.main{
+
+    background: #1C1D22;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.c-white{
+    color: white;
+}
+
+.dim-img-ser{
+    width: 50px;
+    height: 50px;
 }
