@@ -163,6 +163,7 @@ body {
     border-radius: 50%;
     margin-right: 10px;
     
+    
 }
 
 .mes-content {
@@ -214,4 +215,46 @@ body {
 
 .message{
     margin-top: 5px;
+}
+
+.on{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: black;
+    background-color: green;
+    z-index: 999;
+    translate: -30% -10%;
+}
+
+.mid-off{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: black;
+    background-color: rgb(255, 187, 0);
+    z-index: 999;
+    translate: -30% -10%;
+}
+
+.off{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: black;
+    background-color: red;
+    z-index: 999;
+    translate: -30% -10%;
 }
